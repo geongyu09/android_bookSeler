@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="book_ids">
+        <item>@string/book1_id</item>
+        <item>@string/book2_id</item>
+        <item>@string/book3_id</item>
+        <item>@string/book4_id</item>
+    </string-array>
+
+    <string-array name="book_titles">
+        <item>@string/book1_title</item>
+        <item>@string/book2_title</item>
+        <item>@string/book3_title</item>
+        <item>@string/book4_title</item>
+    </string-array>
+
+    <integer-array name="book_prices">
+        <item>22000</item>
+        <item>25000</item>
+        <item>28000</item>
+        <item>20000</item>
+    </integer-array>
+
+    <string-array name="book_publish_dates">
+        <item>@string/book1_publish_date</item>
+        <item>@string/book2_publish_date</item>
+        <item>@string/book3_publish_date</item>
+        <item>@string/book4_publish_date</item>
+    </string-array>
+
+    <string-array name="book_descriptions">
+        <item>@string/book1_description</item>
+        <item>@string/book2_description</item>
+        <item>@string/book3_description</item>
+        <item>@string/book4_description</item>
+    </string-array>
+</resources>

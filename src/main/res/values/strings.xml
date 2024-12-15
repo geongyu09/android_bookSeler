@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">박건규 서점</string>
+    <!-- 책 1 -->
+    <string name="book1_id">BOOK1234</string>
+    <string name="book1_title">자바 코딩의 기술</string>
+    <string name="book1_price">22000</string>
+    <string name="book1_publish_date">2020-07-30</string>
+    <string name="book1_description">자바 프로그래밍의 기초부터 고급 기술까지 다루는 책입니다.</string>
+
+    <!-- 책 2 -->
+    <string name="book2_id">BOOK1235</string>
+    <string name="book2_title">머신 러닝을 다루는 기술</string>
+    <string name="book2_price">25000</string>
+    <string name="book2_publish_date">2021-03-15</string>
+    <string name="book2_description">기계는 영어로 머신</string>
+
+    <!-- 책 3 -->
+    <string name="book3_id">BOOK1236</string>
+    <string name="book3_title">모던 리눅스 관리</string>
+    <string name="book3_price">28000</string>
+    <string name="book3_publish_date">2021-08-20</string>
+    <string name="book3_description">이게 뭐야 오늘도 평화로운 린도린도린도 리눅스 형님들 리눅스가 모던하다니 기매키죠 미치겠죠 판타스틱하죠 레프트 핸드로 하는 모던란 리눅스 관리 완벽하죠 빈틈없죠 야하죠</string>
+
+    <!-- 책 4 -->
+    <string name="book4_id">BOOK1237</string>
+    <string name="book4_title">유니티 교과서</string>
+    <string name="book4_price">20000</string>
+    <string name="book4_publish_date">2021-12-10</string>
+    <string name="book4_description">이게뭐야 엄메이징 차이나 유니티로 교과서를 만들어볼겁니다 교과서라니 야하죠</string>
+</resources>
