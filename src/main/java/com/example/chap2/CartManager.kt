@@ -13,11 +13,16 @@ object CartManager {
     private val listeners = mutableListOf<(Int) -> Unit>()
 
     fun addItem(bookId: String, title: String, price: Int, imageResId: Int) {
-        // 이미 있는 아이템이면 추가하지 않음
+        // 이미 있는 아이템이면 추가하지 않도록 함
         if (cartItems.none { it.bookId == bookId }) {
             cartItems.add(CartItem(bookId, title, price, imageResId))
             notifyListeners()
         }
+    }
+
+    // 선택된 아이템만 반환
+    fun getSelectedItems(): List<CartItem> {
+        return cartItems.filter { it.isSelected }
     }
 
     fun removeItem(bookId: String) {

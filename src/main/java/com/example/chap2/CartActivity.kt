@@ -1,5 +1,6 @@
 package com.example.chap2
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.CheckBox
@@ -32,7 +33,8 @@ class CartActivity : AppCompatActivity() {
         }
 
         binding.buyButton.setOnClickListener {
-            Toast.makeText(this, "주문이 완료되었습니다.", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, DeliveryInfoActivity::class.java)
+            startActivity(intent)
         }
     }
 
