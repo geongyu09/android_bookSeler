@@ -40,6 +40,11 @@
                 android:id="@+id/nameEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:imeOptions="actionNext"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="성명을 입력하세요"
                 android:layout_marginBottom="16dp"/>
 
             <!-- 배송일 -->
@@ -53,6 +58,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="date"
+                android:imeOptions="actionNext"
+                android:hint="YYYY-MM-DD"
                 android:layout_marginBottom="16dp"/>
 
             <!-- 연락처 -->
@@ -66,6 +73,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:hint="010-1234-5678"
                 android:layout_marginBottom="16dp"/>
 
             <!-- 우편번호 -->
@@ -79,6 +88,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
+                android:imeOptions="actionNext"
+                android:hint="12345"
+                android:maxLength="5"
                 android:layout_marginBottom="16dp"/>
 
             <!-- 주소 -->
@@ -91,6 +103,9 @@
                 android:id="@+id/addressEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:imeOptions="actionDone"
+                android:hint="주소를 입력하세요"
                 android:layout_marginBottom="16dp"/>
         </LinearLayout>
     </ScrollView>
