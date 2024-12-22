@@ -1,5 +1,6 @@
 package com.example.chap2
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
@@ -57,6 +58,7 @@ class BookDetailActivity : AppCompatActivity() {
 
         // 장바구니 아이콘 클릭 리스너
         binding.cartLayout.cartIcon.setOnClickListener {
+            startActivity(Intent(this, CartActivity::class.java))
             Toast.makeText(this, "장바구니로 이동", Toast.LENGTH_SHORT).show()
         }
     }

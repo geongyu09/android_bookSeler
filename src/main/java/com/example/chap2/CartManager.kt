@@ -44,6 +44,11 @@ object CartManager {
         listeners.remove(listener)
     }
 
+    fun clearCart() {
+        cartItems.clear()  // 장바구니 비우기
+        notifyListeners()  // 리스너들에게 알림
+    }
+
     private fun notifyListeners() {
         listeners.forEach { it(getItemCount()) }
     }

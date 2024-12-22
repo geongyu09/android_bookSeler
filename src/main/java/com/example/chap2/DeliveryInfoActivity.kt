@@ -27,6 +27,9 @@ class DeliveryInfoActivity : AppCompatActivity() {
             showDatePicker()
         }
 
+        // 키보드 입력 방지
+        binding.deliveryDateEdit.isFocusable = false
+
         // 폰 번호 입력시 하이픈 추가
         binding.phoneEdit.addTextChangedListener(object : TextWatcher {
             private var isFormatting = false
@@ -76,9 +79,6 @@ class DeliveryInfoActivity : AppCompatActivity() {
                 }
             }
         })
-
-        // 키보드 입력 방지
-        binding.deliveryDateEdit.isFocusable = false
 
         setupButtons()
     }

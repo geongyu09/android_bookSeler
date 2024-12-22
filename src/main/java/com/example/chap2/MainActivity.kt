@@ -40,9 +40,7 @@ class MainActivity : AppCompatActivity() {
 
         // 액션바
         setSupportActionBar(binding.toolbar)
-
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
 
         // 장바구니 클릭 리스너
         binding.cartLayout.cartIcon.setOnClickListener {

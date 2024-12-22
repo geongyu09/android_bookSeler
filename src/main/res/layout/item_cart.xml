@@ -38,6 +38,7 @@
             android:layout_height="wrap_content"
             android:textColor="#FF0000"
             android:layout_marginTop="8dp"/>
+
     </LinearLayout>
 
     <ImageButton
@@ -46,6 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:background="?attr/selectableItemBackgroundBorderless"
-
+        android:src="@drawable/ic_delete"
         android:padding="8dp"/>
+
 </LinearLayout>

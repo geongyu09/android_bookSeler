@@ -22,6 +22,10 @@ class CartActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title = "장바구니"
 
+        // 전체 선택 체크박스 초기 상태 설정
+        binding.selectAllCheckbox.isChecked = true
+        CartManager.getItems().forEach { it.isSelected = true }
+
         setupCartItems()
         updateTotalPrice()
 
